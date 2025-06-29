@@ -102,7 +102,7 @@ RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(2,5)  RC(2,6) RC(2,7) RC(2,8) RC(2,9) RC(2,10
         compatible = "cirque,pinnacle";
         reg = <0x2a>;
         status = "okay";
-        dr-gpios = <&gpio0 1 GRIO_ACTIVE_HIGH>;
+        dr-gpios = <&gpio0 1 GPIO_ACTIVE_HIGH>;
         sensitivity = "2x";
         sleep;
         // no_taps
