@@ -12,12 +12,12 @@ endif
 config ZMK_POINTING
     default y
 
-endif
+
 
 config I2C
     default y
 
-endif
+
 
 if SHIELD_CRNCIRQUE_LEFT || SHIELD_CRNCIRQUE_RIGHT
 
